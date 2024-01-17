@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.active {
+  background-color: darkblue;
+  opacity: 1;
+}
+
+.dark .active{
+  @apply bg-gray-900 ;
+
+}
+
+#info-box:last-child{
+  grid-column-start: 4;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  align-items: center;
+}
